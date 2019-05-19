@@ -1,0 +1,138 @@
+#header{
+  background: #EAEAEA;
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 500;
+  color:black;
+  text-align: left;
+  font-size: 30px;
+} 
+  
+.contenido {
+  padding-top: 200px;}
+
+#header img{
+   width: 50px;
+   height: 40px;
+   border-color: red;
+   border-width: 10px;
+   border-radius:50%;
+}
+
+#nav-bar{ 
+  background: #EAEAEA;
+  float: right;
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+	padding: 0 20px 0 20px;
+  margin: 0;
+  
+}
+
+#nav-bar li {
+  display: inline;
+  font-size: 20px;
+  padding: 20px;
+}
+
+body{background: #EAEAEA;
+  font: 15px Arial, Melvetica, sens-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h3{
+  color: black;
+  text-align: left;
+}
+
+h2{
+    color:black;
+    text-align: center;
+  }
+
+#video{
+  width: 640px;
+  height: 480px;
+}
+
+#submit{
+  color: green;
+  font-size: 25px;  
+}
+
+#form{
+  padding: 12px 12px;
+  margin: 20px 500px;
+}
+
+#form button{
+  display: block;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 12px 28px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  background-color: green; 
+  margin: 10px 90px;
+}
+
+
+.item{background: #EAEAEA;}
+
+.container{
+    min-height: 300px;
+    width: 100%;
+    background: #EAEAEA;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: left;
+  }
+#border{border: green 2px solid;}
+
+#form1{
+  padding: 12px 12px;
+  margin: 20px 40px;
+}
+
+#form1 button{
+  display: block;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 12px 28px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  background-color: green; 
+  margin: 10px 90px;
+}
+
+.margen{
+  text-align: center;
+  background-color: #A09E9E; 
+  margin: 0px 0px;
+  padding: auto;
+}
+
+.mmarg{
+  text-align: center;
+  background-color: #A09E9E; 
+  margin: 0px 0px;
+  padding: 14px;
+}
+
+footer{
+  margin: .5em em .5em 1em;
+  width: 100%;
+  text-align: right;
+  background: #EAEAEA;
+  background-color: #A09E9E; 
+}
